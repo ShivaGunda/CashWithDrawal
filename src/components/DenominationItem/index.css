@@ -1,0 +1,24 @@
+.button {
+  color: #c4c4c4 #d4d2db;
+  background-color: #585076;
+  border: 2px solid #c4c4c4;
+  border-radius: 10px;
+  height: 50px;
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
+  width: 44%;
+  margin: 0px 10px 0px 0px;
+}
+
+@media (max-width: 576px) {
+  .button {
+    height: 40px;
+    font-size: 15px;
+  }
+}

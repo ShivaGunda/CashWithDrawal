@@ -1,0 +1,106 @@
+* {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 40px;
+  width: 45%;
+}
+
+.name-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.username {
+  color: white;
+  font-size: 20px;
+}
+
+.user-image {
+  color: #585076;
+}
+
+.image-card {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rupees {
+  font-size: 30px;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+.withDraw {
+  font-size: 30px;
+  margin: 10px 10px 10px 0px;
+}
+
+.para {
+  font-size: 15px;
+  color: #585076;
+}
+
+.light {
+  color: #585076;
+  margin: 10px 10px 10px 0px;
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .withDraw {
+    font-size: 20px;
+  }
+
+  .light {
+    font-size: 16px;
+  }
+
+  .rupees {
+    font-size: 25px;
+  }
+
+  .para {
+    margin: 7px 7px 7px 0px;
+    font-size: 12px;
+  }
+}
